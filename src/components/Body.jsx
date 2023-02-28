@@ -1,5 +1,5 @@
 import React from 'react'
-import {Middle, Sidebar} from "./Info"
+import {Middle, Performance, Sidebar} from "./Info"
 function Body() {
   return (
     <div  className="px-[1%] space-x-[19%] ">
@@ -16,7 +16,10 @@ function Body() {
         </div>
         {/* Body right */}
         <div className='w-[40%] h-screen '>
-        
+          <div className='bg-[#ffb361] px-6'>
+          <Performance/>
+          </div>
+            
         </div>
 
      </div>

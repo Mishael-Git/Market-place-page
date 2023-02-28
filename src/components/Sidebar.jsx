@@ -10,6 +10,7 @@ function Sidebar() {
   return (
     <div className="flex flex-col bg-[#49253f] h-[95%] w-[17%] p-2 mt-0 fixed rounded-l-3xl z-10 px-11 justify-center  items-center">
         <div className="space-y-6">
+          {/* Img */}
           <div className="rounded-full h-52 w-52">
             <img src={Profile} className="object-contain object-cover" />
           </div>

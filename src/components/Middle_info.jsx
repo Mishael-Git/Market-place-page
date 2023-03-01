@@ -19,7 +19,7 @@ function Middle_info() {
            <h1 class='font-bold text-2xl text-white'>Good job!</h1>
            <div className="space-y-2">
            <p class="text-slate-100">You have over 20 000 visitors on the </p>
-           <p class="text-slate-100">last 10days.keep it up!</p>
+           <p class="text-slate-100">last 10days. keep it up!</p>
            </div>
            <div>
             {/* Img */}

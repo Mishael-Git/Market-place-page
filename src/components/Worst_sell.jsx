@@ -4,7 +4,7 @@ import { HiOutlineArrowTrendingDown } from "react-icons/hi2";
 
 function Worst_sell() {
   return (
-    <div className=" space-y-6 h-[20%] px-4 py-4">
+    <div className=" px-4 py-4">
       <div className="bg-white rounded-xl px-5">
         <div className="flex items-center justify-between">
           <h1 class="font-bold text-lg">Worst selling</h1>

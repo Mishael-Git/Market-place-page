@@ -16,7 +16,7 @@ function Body() {
         </div>
         {/* Body right */}
         <div className='w-[40%] h-screen '>
-          <div className='bg-[#ffb361] px-6'>
+          <div className='h-full rounded-2xl py-5 bg-[#ffb361] px-6'>
           <Performance/>
           </div>
             

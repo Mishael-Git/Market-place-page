@@ -1,5 +1,5 @@
 import React from "react";
-import { Total, Worst } from "./Info";
+import { Best, Total, Worst } from "./Info";
 
 function Progress() {
   return (
@@ -12,6 +12,9 @@ function Progress() {
       </div>
       <div>
         <Worst/>
+      </div>
+      <div>
+        <Best/>
       </div>
     </div>
   );

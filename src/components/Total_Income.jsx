@@ -19,7 +19,7 @@ function Total_Income() {
               <p class="font-bold">orders</p>
             </div>
           </div>
-          <div className="flex items-center rounded-xl bg-[#ecfffb] py-1 px-5">
+          <div className="flex items-center rounded-xl bg-[#ecfffb] space-x-3 py-1 px-5">
             <HiOutlineArrowTrendingUp size={29} className=" text-[#16b976]" />
             <p class="text-xl text-[#16b976] font-bold">15%</p>
           </div>

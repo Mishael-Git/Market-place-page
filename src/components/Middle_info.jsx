@@ -4,7 +4,7 @@ import { Basket } from "../assets/images/Image";
 
 function Middle_info() {
   return (
-    <div className="space-y-6">
+    <div className=" px-5 py-5 space-y-6 ">
       <div className="flex flex-col items-start justify-start px-1">
         <div className="flex  items-center space-x-96">
           <h1 class="font-extrabold text-2xl">Welcome back, Dan!</h1>
@@ -14,7 +14,7 @@ function Middle_info() {
         <p class="font-semibold ">23 October, Friday</p>
         </div>
       </div>
-      <div className="bg-[#ff5959] px-5 py-5 h-[30%] rounded-xl ">
+      <div className="bg-[#ff5959] px-5 py-5 h-[30%] rounded-xl w-[94%] ">
         <div className="space-y-9">
            <h1 class='font-bold text-2xl text-white'>Good job!</h1>
            <div className="space-y-2">

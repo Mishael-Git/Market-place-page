@@ -5,3 +5,4 @@ export { default as Progress } from "./Progress";
 export { default as Total } from "./Total_Income";
 export { default as Worst } from "./Worst_sell";
 export { default as Best } from "./Best_sell";
+export { default as Recent } from "./Recent_Sold";

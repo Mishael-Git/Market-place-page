@@ -1,13 +1,14 @@
 import React from "react";
 import { IoMdNotificationsOutline } from "react-icons/io";
 import { Basket } from "../assets/images/Image";
+import { Recent } from "./Info";
 
 function Middle_info() {
   return (
     <div className=" px-5 py-5 space-y-6 ">
       <div className="flex flex-col items-start justify-start px-1">
         <div className="flex  items-center space-x-96">
-          <h1 class="font-extrabold text-2xl">Welcome back, Dan!</h1>
+          <h1 class="font-extrabold text-3xl">Welcome back, Dan!</h1>
           <IoMdNotificationsOutline size={27}/>
         </div>
         <div className="flex items-center">
@@ -42,6 +43,9 @@ function Middle_info() {
           <h1 class="font-extrabold text-2xl">+1,0K</h1>
           <p>Orders</p> 
         </div>
+      </div>
+      <div>
+        <Recent/>
       </div>
     </div>
   );

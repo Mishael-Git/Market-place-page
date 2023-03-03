@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*[js, jsx]"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'Win-max': "url(public/Winmax.jpg)",
+      }
+    },
   },
   plugins: [],
 }

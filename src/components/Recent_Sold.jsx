@@ -12,13 +12,15 @@ function Recent_Sold() {
       </div>
       {/* Body */}
       <div className="flex items-center space-x-6">
-        <div className="">
+        <div className="flex flex-col  relative">
           {/* Img */}
           <div className="w-[310px] h-[300px]">
             <img src={Winmax} className="w-full h-full rounded-2xl " />
           </div>
+          <div className="flex flex-col absolute px-5">
           <h1 class="font-bold text-lg">Bang Bag</h1>
           <p class="font-semibold text-base">$1,5k earned</p>
+          </div>
         </div>
         <div className=" space-y-7">
         <div className="flex items-center space-x-6">

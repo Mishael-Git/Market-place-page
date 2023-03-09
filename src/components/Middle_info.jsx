@@ -15,7 +15,7 @@ function Middle_info() {
         <p class="font-semibold ">23 October, Friday</p>
         </div>
       </div>
-      <div className="bg-[#ff5959] px-5 py-5 h-[30%] rounded-xl w-[94%] ">
+      <div className="bg-[#e2424a] px-5 py-5 h-[30%] rounded-xl w-[94%] ">
         <div className="space-y-9">
            <h1 class='font-bold text-2xl text-white'>Good job!</h1>
            <div className="space-y-2">
@@ -44,7 +44,7 @@ function Middle_info() {
           <p>Orders</p> 
         </div>
       </div>
-      <div>
+      <div >
         <Recent/>
       </div>
     </div>
